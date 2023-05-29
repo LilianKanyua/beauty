@@ -1,0 +1,102 @@
+body{
+    padding: 20px;  
+  }
+  
+  .list{
+      display: flex;
+      /* justify-content: space-between; */
+      margin-left: 30%;
+   
+      gap: 5%;
+      color:rgb(191, 99, 6);
+  }
+  #african{
+      width: 600px;
+      height: 500px;
+      border-top-right-radius: 30%;
+      border-top: 50%;
+      border-bottom-left-radius: 30%;
+      animation: flip; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 2s; /* don't forget to set a duration! */
+  
+  
+     
+  }
+  .face{
+      margin-top: -48%;
+      margin-left: 60%;
+      color:rgb(191, 99, 6); 
+      
+     
+  }
+  .skin{
+      font-size: 40px;
+      color: green;
+      animation: bounce; 
+      animation-duration: 2s; 
+  }
+  .body{
+      font-size: 40px;
+      color: green;
+  
+  }
+  .face h2{
+      font-size: 30px;
+  }
+  #bbody{
+      
+      margin-left: 60%;
+      color:rgb(191, 99, 6);
+  
+  }
+  .bbody h2{
+      font-size: 30px;
+  }
+  #product{
+      margin-left: 48%;
+      width: 400px;
+      height: 331px;
+      border-top-right-radius: 30%;
+      border-bottom-left-radius: 30%;
+      animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 2s; /* don't forget to set a duration! */
+  
+  
+  }
+  #glow{
+      font-size: 50px;
+      font-weight: bold;
+      color:rgb(191, 99, 6);
+  
+  }
+  
+  body{
+      background-color:rgb(238, 228, 228);
+  }
+  span{
+      color: #000;
+  }
+  .beauty{
+      color:green ;
+      font-size: 60px;
+  }
+  @media screen and (max-width:800px){
+  .skin{
+          margin-right: 30%;
+          margin-bottom: -30%;
+      }
+  #african{
+          width: 200px;
+          height: 200px;
+  
+      }
+  #product{
+      width: 200px;
+      height: 200px;
+      margin-right: 30%;
+  
+  
+  }    
+      
+     
+  }
